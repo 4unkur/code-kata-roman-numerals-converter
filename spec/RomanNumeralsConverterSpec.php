@@ -15,12 +15,12 @@ class RomanNumeralsConverterSpec extends ObjectBehavior
 
     public function it_calculates_the_roman_numeral_for_1()
     {
-    	$this->convert(1)->shouldReturn('I');
+        $this->convert(1)->shouldReturn('I');
     }
 
     public function it_calculates_the_roman_numeral_for_2()
     {
-    	$this->convert(2)->shouldReturn('II');
+        $this->convert(2)->shouldReturn('II');
     }
 
     public function it_calculates_the_roman_numeral_for_4()
@@ -30,7 +30,7 @@ class RomanNumeralsConverterSpec extends ObjectBehavior
 
     public function it_calculates_the_roman_numeral_for_5()
     {
-    	$this->convert(5)->shouldReturn('V');
+        $this->convert(5)->shouldReturn('V');
     }
 
     public function it_calculates_the_roman_numeral_for_6()
